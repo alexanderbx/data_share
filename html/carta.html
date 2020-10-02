@@ -22,6 +22,11 @@
         height: 800px;
         width: 300px;
         border: 5px solid #DEDEDE;
+        padding: 5px 10px;
+        text-align: left;
+      }
+      ol ol {
+        list-style-type: lower-alpha;
       }
     </style>
   </head>
@@ -31,10 +36,27 @@
       <div class="barra-lateral"> <!-- block -->
         <ul> <!-- unordered list -->
           <li>Manzana</li> <!-- list item -->
-          <li>Pera</li>
+          <li>
+            <a href="https://www.google.com" target="_blank"> <!-- hyperlink -->
+              Pera
+            </a>
+          </li>
           <li>Pina</li>
         </ul>
+        
+        <ol>
+          <li>Mi primer elemento</li>
+          <li>Es mi segundo elemento</li>
+          <li>
+            Este deberia de decir 3
+            <ol>
+              <li>Que onda</li>
+              <li>Soy otra lista!</li>
+            </ol>
+          </li>
+        </ol>
       </div>
+      
       <h1>Bienvenido a Google!</h1> <!-- header1 -->
       
       <img src="google.jpg"> <!-- image -->
